@@ -1,0 +1,29 @@
+.top_header {
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around;   */
+}
+.logos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: orange;  
+    justify-content: space-around;  
+}
+
+.menus{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.updates_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
